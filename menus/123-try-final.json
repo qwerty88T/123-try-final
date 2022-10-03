@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle 123-try-final",
+        "command": "123-try-final:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "123-try-final",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "123-try-final:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
